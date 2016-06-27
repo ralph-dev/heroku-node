@@ -1,3 +1,5 @@
+console.log('Life is over.')
+
   (function() {
   var NYLM, claerResizeScroll, conf, getRandomInt, insertI, lol;
 
@@ -50,7 +52,7 @@ insertI = function() {
     }, getRandomInt(2500, 500));
   }
 };
-     
+
 
 
 
@@ -82,7 +84,7 @@ insertI = function() {
                 "mkt": "en-us",
                 "safesearch": "Moderate",
             };
-          
+
             $.ajax({
                 url: "https://bingapis.azure-api.net/api/v5/search/?" + $.param(params),
                 beforeSend: function(xhrObj){
@@ -121,7 +123,7 @@ insertI = function() {
           //hideConversation("python");
           var ConversationArrayPython = document.getElementsByClassName('python');
           ConversationArrayPython[0].style.display = 'none';
-          
+
 
         $(".list-friends").niceScroll(conf);
         $(".messages").niceScroll(lol);
@@ -155,7 +157,7 @@ insertI = function() {
 
           var ConversationArrayLinux = document.getElementsByClassName('linux');
           ConversationArrayLinux[0].style.display = 'none';
-          
+
         }else if (e.target.textContent == "Linux") {
           switchtwo = true;
           // var ConversationArraytestpython = document.getElementsByClassName('testpython');
@@ -168,7 +170,7 @@ insertI = function() {
         ConversationArrayPython[0].style.display = 'none';
           var ConversationArrayLinux = document.getElementsByClassName('linux');
           ConversationArrayLinux[0].style.display = 'block';
-          
+
         }
       });
 

@@ -1,4 +1,4 @@
-
+  console.log('HELLO!')
 
 
 
@@ -13,6 +13,7 @@ function hideDiv(tmp)
 
 
 function showDiv(tmp){
+
   for(var i = 0; i < tmp.length; i++)
   {
     document.getElementsByClassName(tmp[i])[0].style.display = 'block';
@@ -67,7 +68,7 @@ document.getElementById("searchSupport")
 
 var ul = document.getElementById("flfs");  // Parent
 
-ul.addEventListener('click', function(e) 
+ul.addEventListener('click', function(e)
 {
 
   console.log(e.target.textContent);
